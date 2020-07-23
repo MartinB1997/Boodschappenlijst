@@ -1,4 +1,18 @@
+td1 {
+    border: 1px solid black;
+    color: red;
+}
+
+td2 {
+    border: 1px solid black;
+    color: green;
+}
+
+td3 {
+    border: 1px solid black;
+    color: blue;
+}
+
 table {
     border: 1px solid black;
-    column-count: 4;
 }
