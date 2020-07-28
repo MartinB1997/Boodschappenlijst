@@ -24,3 +24,7 @@ tbody {
     table-layout: fixed;
     columns: auto;
 }
+
+.grid{
+    grid-area: 1, 1, 5, 5;
+}
