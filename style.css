@@ -27,11 +27,152 @@ tbody {
 
 .grid{
     display: grid;
-    grid-row: 4;
-    grid-column: 4;
-    grid-area: 1, 1, 5, 5;
+    height: 120px;
+    width: 220px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
 }
 
-.rood{
-    grid-template-columns: repeat();
+.rood2{
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.groen2{
+    border: 1px solid black;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.blauw2{
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.rood3{
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.groen3{
+    border: 1px solid black;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.blauw3{
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.rood4{
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.groen4{
+    border: 1px solid black;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.blauw4{
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.rood5{
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.groen5{
+    border: 1px solid black;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.blauw5{
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    height: 25px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
 }
