@@ -26,5 +26,12 @@ tbody {
 }
 
 .grid{
+    display: grid;
+    grid-row: 4;
+    grid-column: 4;
     grid-area: 1, 1, 5, 5;
+}
+
+.rood{
+    grid-template-columns: repeat();
 }
