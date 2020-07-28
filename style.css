@@ -185,3 +185,24 @@ tbody {
     grid-column-end: 5;
     text-align: center;
 }
+
+
+.col1{
+    width: 80px;
+}
+
+.col2{
+    width: 80px;
+}
+
+.col3{
+    width: 80px;
+}
+
+.col4{
+    width: 80px;
+}
+
+.col1-3{
+    column-span: 1, 4;
+}
