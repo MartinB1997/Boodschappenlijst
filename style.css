@@ -30,7 +30,7 @@
 
 tbody {
     border: 1px solid black;
-    table-layout: fixed;
+    table-layout: auto;
     columns: auto;
 }
 
@@ -186,31 +186,56 @@ tbody {
     text-align: center;
 }
 
+.head .col1 .productPrices .productQuantity .productTotalCost .col1-3 .totalCost{
+    font-family: sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 .head{
     color: white;
     background-color: black;
 }
 .col1{
     width: 80px;
-    border: 2px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: start;
 }
 
-.col2{
+.productPrices{
     width: 80px;
-    border: 2px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: right;
 }
 
-.col3{
+.productQuantity{
     width: 80px;
-    border: 2px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: start;
 }
 
-.col4{
+.productTotalCost{
     width: 80px;
-    border: 2px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: right;
 }
 
 .col1-3{
-    column-span: 1, 4;
-    border: 2px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: right;
+}
+
+.totalCost{
+    width: 80px;
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: right;
 }
